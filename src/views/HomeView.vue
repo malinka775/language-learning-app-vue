@@ -5,9 +5,9 @@
 </template>
 
 <script setup>
-// import { useTestStore } from '../stores/test';
+import { useTestStore } from '../stores/test';
 
-// const testStore = useTestStore();
+const testStore = useTestStore();
 
-// console.log('test id is',testStore.testId);
+console.log('test id is',testStore.testId);
 </script>
